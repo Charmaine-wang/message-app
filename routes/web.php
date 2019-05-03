@@ -12,5 +12,9 @@
 |
 */
 
-Route::get('/', 'MessagesController@index');
+Route::get('/', 'PagesController@index');
+Route::get('/login', 'PagesController@login');
+
+Route::post('/login', 'AuthController@login')->name('profile');
+
 

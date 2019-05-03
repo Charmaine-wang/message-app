@@ -9,6 +9,7 @@
 
         <p> {{$message->text}}</p>
 
+        <h1>{{ $name }}</h1>
 
         @endforeach
         </div>
